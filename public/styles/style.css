@@ -471,7 +471,10 @@ color:#000000;
     background: #fff; /* Fondo blanco */
     color: #548687; /* Color del texto verde */
   }
-  
+  .logo-medium {
+    width: 150px;  /* Ajusta el tamaño aquí */
+    height: auto; /* Mantiene la proporción original */
+}
   
 
 @media (max-width: 767.98px) {
