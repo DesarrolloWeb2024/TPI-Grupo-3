@@ -276,7 +276,7 @@ a.product-name:hover, a.product-name:focus {
 
 .sidebar {
     border-left: 1px solid #004d9b;
-    border-top: 0 solid #c7c8c9;
+    border-top: 0 solid #ffffff;
 }
 
 .average-rating {
@@ -474,8 +474,17 @@ color:#000000;
   .logo-medium {
     width: 150px;  /* Ajusta el tamaño aquí */
     height: auto; /* Mantiene la proporción original */
+  }
+    
+  .nav-link {
+    font-weight: bold;  /* Negrita */
+    color: #003366;     /* Azul oscuro */
 }
-  
+
+
+
+    
+
 
 @media (max-width: 767.98px) {
 

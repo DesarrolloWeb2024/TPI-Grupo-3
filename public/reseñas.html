@@ -54,9 +54,9 @@
     </div>
 
                 <!-- Sección de Reseñas -->
-                <section id="reseñas" class="py-5">
+                <section id="promociones" style="background-color: #102B3F;">
                     <div class="container">
-                        <h2 class="text-center mb-4">Reseñas de Nuestros Clientes</h2>
+                        <h2 class="text-center mb-4" style="color: white;">RESEÑAS DE NUESTROS CLIENTES</h2>
                         <div class="row">
                             <!-- Reseña 1 -->
                             <div class="col-md-4 mb-4">
@@ -90,29 +90,30 @@
                 </section>
 
                 <!-- Sección de Formulario de Contacto y Reseñas -->
-                <section id="contacto" class="bg-light py-5">
+                <section id="contacto" class="py-5" style="background-color: #548687;">
                     <div class="container">
-                        <h2 class="text-center mb-4">Déjanos tu Reseña</h2>
-                        <p class="text-center mb-4">Queremos saber tu opinión. Por favor, llena el siguiente formulario con tus comentarios.</p>
+                        <h2 class="text-center mb-4" style="color: white; text-transform: uppercase;">¡Déjanos tu Reseña!</h2>
+                        <p class="text-center mb-4" style="color: white;">Queremos saber tu opinión. Por favor, llena el siguiente formulario con tus comentarios.</p>
                         <form action="procesar_resena.php" method="POST">
                             <div class="row">
                                 <!-- Nombre -->
                                 <div class="col-md-6 mb-3">
-                                    <label for="nombre" class="form-label">Tu Nombre</label>
+                                    <label for="nombre" class="form-label" style="color: white;">Tu Nombre</label>
                                     <input type="text" class="form-control" id="nombre" name="nombre" required>
                                 </div>
                                 <!-- Correo -->
                                 <div class="col-md-6 mb-3">
-                                    <label for="correo" class="form-label">Tu Correo Electrónico</label>
+                                    <label for="correo" class="form-label" style="color: white;">Tu Correo Electrónico</label>
                                     <input type="email" class="form-control" id="correo" name="correo" required>
                                 </div>
                             </div>
                             <!-- Reseña -->
                             <div class="mb-3">
-                                <label for="resena" class="form-label">Tu Reseña</label>
+                                <label for="resena" class="form-label" style="color: white;">Tu Reseña</label>
                                 <textarea class="form-control" id="resena" name="resena" rows="4" required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">Enviar Reseña</button>
+                            <button type="submit" class="btn" style="background-color: #102B3F; color: white;">Enviar Reseña</button>
+
                         </form>
                     </div>
                 </section>
